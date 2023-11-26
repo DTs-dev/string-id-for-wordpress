@@ -11,7 +11,7 @@ For this addon to work, you need to include the following two files in your “f
 ### Usage
 **1. Get post id by string id of post**
 ```
-get_post_by_string_id( $string_id, $translate, $post_type )
+get_post_by_string_id( $string_id, $translate, $post_type );
 ```
 where:
 - `$string_id` - string id of post to get its id.
@@ -20,14 +20,14 @@ where:
 
 **2. Get string id of post by post id**
 ```
-get_string_id( $post_id )
+get_string_id( $post_id );
 ```
 where:
 - `$post_id` - post id to get its string id (default: 0 - current post).
 
 **3. Checking the post for relation to the string id of post**
 ```
-is_string_id( $string_id, $subpage, $translate, $post_type )
+is_string_id( $string_id, $subpage, $translate, $post_type );
 ```
 where:
 - `$string_id` - string id of post for checking the current post against it.
