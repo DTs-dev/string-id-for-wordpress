@@ -1,4 +1,7 @@
 # String id (symbolic id) functionality for WordPress posts
+
+![](screen.png)
+
 ## Is provided as a special field, boolean functions, function and shortcode to getting the post content by its string id.
 
 The functionality includes multilingual support in combination with the Polylang plugin.
